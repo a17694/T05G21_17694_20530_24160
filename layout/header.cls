@@ -1,0 +1,13 @@
+
+\LoadClass[11pt,a4paper]{report}
+\usepackage[portuges]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{aeguill}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[T1]{fontenc}
+\usepackage{tgbonum}
+\usepackage{multicol}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{lipsum}
