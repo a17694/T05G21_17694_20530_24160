@@ -1,4 +1,3 @@
-
 \LoadClass[11pt,a4paper]{report}
 \usepackage[portuges]{babel}
 \usepackage[utf8]{inputenc}
