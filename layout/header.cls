@@ -1,5 +1,5 @@
 \LoadClass[11pt,a4paper]{report}
-\usepackage[portuges]{babel}
+\usepackage[portuguese]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{aeguill}
 \usepackage{graphicx}
