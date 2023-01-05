@@ -18,3 +18,5 @@
 
 %% Format the chapter titles and spacing
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+\titleformat{\section}
+{\normalfont\fontsize{11}{12}\bfseries}{\thesection}{1em}{}
