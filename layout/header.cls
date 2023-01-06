@@ -17,9 +17,10 @@
 \usepackage{lipsum}
 \usepackage{titlesec, blindtext, color}
 \usepackage{listings}
-\usepackage[small]{caption}
+\usepackage[scriptsize]{caption}
 \usepackage{indentfirst}
 \usepackage[left=2.5cm,top=2cm,right=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{lstmisc}
 
 % Formata as hiperligacoes
 \hypersetup{
