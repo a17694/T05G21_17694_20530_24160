@@ -26,3 +26,37 @@ São grafos que apresentam na sua totalidade arestas orientadas, mais conhecidas
 \end{figure}
 
 \subsection{Grafo Parcial e Subgrafo gerado de um dado grafo}
+- \underline{Grafo Parcial}: supressão de arestas, mantendo o número de vértices. Em contexto, podemos assumir 
+que uma rota de voo é descontinuada por existir uma outra que implique escala ou por ser uma escala que já 
+não faça sentido e exista uma outra rota direta para um dado destino.
+\linebreak
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.2\textwidth]{imgs/Figura6}
+    \caption{Exemplo de multigrafo com lacete\label{fig:imagem6}}
+\end{figure}
+\linebreak
+- \underline{Subgrafo}: supressão de vértices e por consequência de todas as arestas com ligações a esses vértices. 
+Em contexto, um destino deixa de servir os interesses da companhia, sendo canceladas como consequência 
+todas as rotas para esse mesmo destino.
+\linebreak
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.2\textwidth]{imgs/Figura7}
+    \caption{Exemplo de multigrafo com lacete\label{fig:imagem7}}
+\end{figure}
+
+\subsection{Grafo Subjacente e digrafo associado}
+Quando queremos representar um Digrafo Associado a um dado grafo, na prática cada aresta ligada a 
+dois vértices duplica, e as novas arestas passam a ter orientações opostas, aplicando-se o mesmo para os 
+lacetes.
+\indent Para representar um Grafo Subjacente a partir de um Digrafo, simplesmente tiramos as orientações aos 
+arcos, tornando-se arestas paralelas e lacetes existentes desaparecem.
+\indent Nas seguintes figuram podemos observar os conceitos de digrafo associado a um grafo e de grafo 
+subjacente a um digrafo:
+\linebreak
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.2\textwidth]{imgs/Figura8}
+    \caption{Exemplo de multigrafo com lacete\label{fig:imagem8}}
+\end{figure}
