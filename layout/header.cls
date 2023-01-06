@@ -21,6 +21,7 @@
 \usepackage{indentfirst}
 \usepackage[left=2.5cm,top=2cm,right=2.5cm,bottom=2.5cm]{geometry}
 \usepackage{lstmisc}
+\usepackage{ragged2e}
 
 % Formata as hiperligacoes
 \hypersetup{
