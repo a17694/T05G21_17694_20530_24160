@@ -12,7 +12,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{tgbonum}
 \usepackage{multicol}
-\usepackage[hidelinks]{hyperref}
+\usepackage[pdftex]{hyperref}
 \usepackage{xcolor}
 \usepackage{lipsum}
 \usepackage{titlesec, blindtext, color}
