@@ -44,4 +44,4 @@
 {\normalfont\fontsize{11}{12}\bfseries}{\thesection}{1em}{}
 
 %% Define o avanço inicial do texto
-\setlength{\parindent}{1.3cm}
+\setlength{\parindent}{0.7cm}
