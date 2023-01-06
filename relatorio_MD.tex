@@ -1,4 +1,5 @@
 \documentclass{layout/header}
+\usepackage{lstmisc}
 \title{
     \includegraphics[scale=1.4]{imgs/ipca}\vspace{1cm}
     {\large Licenciatura em Engenharia de Sistemas Informáticos\\
@@ -22,8 +23,16 @@
 }
 \begin{document} 
     \maketitle
+    % índice
+    \tableofcontents
+
+    % figuras
+    \listoffigures
+
+    % Conteudo
     \input{chapters/intruducao}
     \input{chapters/companhia_aerea}
     \input{chapters/desenvolvimento}
+    \input{chapters/desenvolvimento3_1}
     \input{chapters/conclusao}
 \end{document}
