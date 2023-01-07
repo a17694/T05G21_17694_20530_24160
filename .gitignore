@@ -8,3 +8,6 @@
 .idea
 *.lof
 *.toc
+*.bcf
+*.bbl
+*.blg
