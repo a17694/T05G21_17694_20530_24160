@@ -9,3 +9,5 @@
 *.lof
 *.toc
 *.bcf
+*.bbl
+*.blg
