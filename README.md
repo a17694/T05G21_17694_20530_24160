@@ -2,9 +2,9 @@
 Trabalho Prático 05 - Controlo de Versões (GIT) 
 - [x] Criar base do relatorio
 - [x] Colocar as imagens na pasta para o devido efeito
-- [ ] Colocar os capítulos e seus subcapítulos
-- [ ] Colocar imagens e legendar
-- [ ] Criar os índices
-- [ ] Formatar os textos
-- [ ] Rever os textos
+- [x] Colocar os capítulos e seus subcapítulos
+- [x] Colocar imagens e legendar
+- [x] Criar os índices
+- [x] Formatar os textos
+- [x] Rever os textos
 - [ ] Entregar o trabalho
