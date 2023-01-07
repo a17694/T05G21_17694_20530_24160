@@ -1,7 +1,10 @@
 \documentclass{layout/header}
+
 \title{
+    \centering
     \includegraphics[scale=1.4]{imgs/ipca}\vspace{1cm}
-    {\large Licenciatura em Engenharia de Sistemas Informáticos\\
+    \newline
+    \large{Licenciatura em Engenharia de Sistemas Informáticos\\
     Pós-Laboral}\\
     \vspace{1cm}
     \textbf{Trabalho Prático}\\
@@ -10,7 +13,7 @@
 }
 \author{
     \rightline{\textbf{Aunos:}}\\
-    \rightline{Carlos Oliveira – ?????}\\
+    \rightline{Carlos Oliveira – 20530}\\
     \rightline{Hugo Marques – 24160}\\
     \rightline{João Ponte – 17694}\\
     \\\rightline{\textbf{Docente:}}\\
@@ -22,9 +25,17 @@
 }
 \begin{document} 
     \maketitle
+    % índice
+    \tableofcontents
+
+    % figuras
+    \listoffigures
+
+    % Conteudo
     \input{chapters/intruducao}
     \input{chapters/companhia_aerea}
     \input{chapters/desenvolvimento}
+    \input{chapters/desenvolvimento3_1}
     \input{chapters/desenvolvimento3_2}
     \input{chapters/conclusao}
 \end{document}
