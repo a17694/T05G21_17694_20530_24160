@@ -1,7 +1,9 @@
 \documentclass{layout/header}
+
 \title{
     \includegraphics[scale=1.4]{imgs/ipca}\vspace{1cm}
-    {\large Licenciatura em Engenharia de Sistemas Informáticos\\
+    \newline
+    \large{Licenciatura em Engenharia de Sistemas Informáticos\\
     Pós-Laboral}\\
     \vspace{1cm}
     \textbf{Trabalho Prático}\\
@@ -22,9 +24,17 @@
 }
 \begin{document} 
     \maketitle
+    % índice
+    \tableofcontents
+
+    % figuras
+    \listoffigures
+
+    % Conteudo
     \input{chapters/intruducao}
     \input{chapters/companhia_aerea}
     \input{chapters/desenvolvimento}
+    \input{chapters/desenvolvimento3_1}
     \input{chapters/desenvolvimento3_2}
     \input{chapters/conclusao}
 \end{document}
