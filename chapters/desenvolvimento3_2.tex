@@ -1,8 +1,13 @@
+\clearpage
 \section{QUESTÕES DE DESENVOLVIMENTO}
 \label{section}
 \subsection{Representação da situação por meio de um grafo}
 Consideremos o grafo abaixo apresentado como G:\\
-%inserir figura 11
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imgs/Figura11}
+    \caption{Grafo G\label{fig:imagem11}}
+\end{figure}
 \subsection{ O grafo é conexo?}
 \indent Por definição, um grafo é conexo quando é possível ligar quaisquer dois vértices pertencentes a esse grafo, por meio de uma cadeia. O grafo representado na Figura 10 é conexo.\\
 \indent No grafo G, na Figura 11, escolhendo quaisquer dois vértices, existem ligações entre si por uma aresta ou por um conjunto de arestas que passam por outros vértices intermédios numa cadeia.\\
@@ -57,7 +62,7 @@ que \underline{deg(v) = nº de arestas adjacentes a v.} \\
      $\sum_{}^{}deg(v)=$130 &   &   &   &   & \\
      \hline
     \end{tabular}
-    \end{center}
+\end{center}
 
 \indent Por meio da tabela acima, vemos que o número de vértices de grau ímpar, ultrapassa facilmente o dois, e 
 daí concluímos que não existe uma cadeia euleriana. Como os vértices não são todos de grau par, não existe 
@@ -67,7 +72,11 @@ um ciclo euleriano.\\
 representadas da companhia aérea, em que cada uma duplicar-se-ia em trajetos distintos, um de ida e outra
 de volta, nós teríamos um grafo euleriano no mapa.
 Vejamos o exemplo na figura seguinte, entre Almaty (13) e Seoul (19):\\
-%inserir figura 12
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imgs/Figura12}
+    \caption{Exemplo de digrafo associado\label{fig:imagem12}}
+\end{figure}
 \indent Damos o exemplo entre os dois destinos salientados, na figura 12, como arestas orientadas. Caso 
 aplicássemos o mesmo em todas as arestas de G, passaríamos a ter um digrafo associado ao grafo G. Desta 
 forma o agora digrafo já se classificaria como euleriano, pois o grau de todos os vértices passaria a ser par.
