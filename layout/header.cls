@@ -21,6 +21,9 @@
 \usepackage{indentfirst}
 \usepackage[left=2.5cm,top=2cm,right=2.5cm,bottom=2.5cm]{geometry}
 \usepackage{lstmisc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
 
 % Formata as hiperligacoes
 \hypersetup{
