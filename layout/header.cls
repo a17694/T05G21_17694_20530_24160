@@ -47,6 +47,3 @@
 
 %% Define o avanço inicial do texto
 \setlength{\parindent}{0.7cm}
-
-%% Altera o titulo de bibliografia
-\renewcommand\bibname{Referências}
